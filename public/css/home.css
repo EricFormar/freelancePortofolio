@@ -96,5 +96,21 @@
 
 
 .home__main__section--contact{
+    color: var(--colorAzul);
+    padding: 60px 10px;
+}
 
+.home__main__section--contact .home__main__section--star hr{
+    background-color: var(--colorAzul);
+}
+
+.home__main__section--contact .home__main__section--star h4{
+    color: var(--colorAzul);
+}
+
+.home__main__section--contact button{
+    padding: 20px 30px;
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-transform: capitalize;   
 }

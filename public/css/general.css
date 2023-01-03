@@ -16,6 +16,10 @@ ol, ul {
     padding: 0;
 }
 
+textarea {
+    resize: none;
+}
+
 .general__subtitulos {
     text-transform: uppercase;
     text-align: center;

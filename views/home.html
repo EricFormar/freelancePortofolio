@@ -12,7 +12,7 @@
 <body class="home">
     <header class="header">
          <a href="#"><h3>freelance portfolio</h3></a>
-        <button>
+        <button class="buttons__green">
             menu <i class="fa-solid fa-bars"></i>
         </button>
         <nav class="header__nav">
@@ -86,32 +86,31 @@
            <a href=""><i class="fa-solid fa-download"></i>Download Now!</a>
         </section>
         <section class="home__main__section--contact" id="contact">
-            <h2>contact me</h2>
+            <h2 class="general__subtitulos">contact me</h2>
             <div class="home__main__section--star">
                 <hr>
                 <h4><i class="fa-solid fa-star"></i></h4>
                 <hr>
             </div>
-            <form action="">
-                <div class="form-box">
-                    <label for="">Name</label>
-                    <input class="form-input" type="text" autocomplete="off">
+            <form action="" method="">
+                <div class="form__box">
+                    <label for="name">Name</label>
+                    <input class="form-input" type="text" autocomplete="off" id="name" name="name">
                 </div>
-                <div class="form-box">
-                    <label for="">Email Address</label>
-                    <input class="form-input" type="text" autocomplete="off">
+                <div class="form__box">
+                    <label for="email">Email Address</label>
+                    <input class="form-input" type="email" autocomplete="off" id="email" name="email">
                 </div>
-                <div class="form-box">
-                    <label for="">Phone Number</label>
-                    <input class="form-input" type="text" autocomplete="off">
+                <div class="form__box">
+                    <label for="phone">Phone Number</label>
+                    <input class="form-input" type="tel" autocomplete="off" id="phone" name="phone">
                 </div>
-                <div class="form-box">
-                    <label for="">Message</label>
-                    <textarea class="form-textarea" name="" id=""></textarea>
+                <div class="form__box">
+                    <label for="message" >Message</label>
+                    <textarea class="form-textarea" name="" id="message" rows="10"></textarea>
                 </div>
-                <div class="form-box--flex">
-                    <div class="g-recaptcha" data-sitekey="your_site_key"></div>
-                    <button>Send</button>
+                <div class="form__box--flex">
+                    <button class="buttons__green" type="submit">Send</button>
                 </div>
             </form>
         </section>

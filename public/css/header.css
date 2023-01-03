@@ -10,13 +10,7 @@
     font-weight: 800;
 }
 .header button {
-    background-color: var(--colorVerde);
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    padding: 10px;
-    text-transform: uppercase;
-    font-weight: 600;
+
 }
 .header__nav{
     display: none;
